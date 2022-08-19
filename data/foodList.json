@@ -1,0 +1,44 @@
+[
+    {
+        "id": 101,
+        "name": "Channa Masala",
+        "image": "../images/Chana.png",
+        "price": 450,
+        "spicy": true
+    },
+    {
+        "id": 102,
+        "name": "Mushroom Fry",
+        "image": "../images/Mushroom.png",
+        "price": 400,
+        "spicy": true
+    },
+    {
+        "id": 103,
+        "name": "Fried Rice",
+        "image": "../images/Rice.png",
+        "price": 350,
+        "spicy": true
+    },
+    {
+        "id": 104,
+        "name": "Plain Roti",
+        "image": "../images/Roti.png",
+        "price": 200,
+        "spicy": false
+    },
+    {
+        "id": 105,
+        "name": "Mix Veg. Salad",
+        "image": "../images/Salad.png",
+        "price": 300,
+        "spicy": false
+    },
+    {
+        "id": 106,
+        "name": "Gulab Jamun",
+        "image": "../images/Jamun.png",
+        "price": 250,
+        "spicy": false
+    }
+]

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    min-height: 100%;
+}
+
+#hero {
+    background-image: url("../../images/buffet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(-3rem);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@layer components {
+    .add-button {
+        @apply w-[100%] py-2 rounded-md bg-red-600 hover:bg-red-700 text-white transition-all focus:outline-none;
+    }
+}
