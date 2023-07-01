@@ -16,7 +16,7 @@ function BackDrop({
         >
             <div
                 style={{
-                    animation: "slide-in 200ms ease-out forwards",
+                    animation: "slide-in 250ms ease-out forwards",
                 }}
                 className="z-10 fixed top-44 w-[100%]"
             >
